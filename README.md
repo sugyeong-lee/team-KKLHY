@@ -1,11 +1,14 @@
 ### Team-KKLHY
 오픈소스 1팀 프로젝트 저장소<br>
 #### 팀원
-+ [GitHub](https://github.com/HwangBBang) 황병훈 / 팀장,계획서, README작성 / Stage.#0, #1 
-+ [GitHub](https://github.com/123ksj) 김수정 / 진행현황작성 / Stage.#1, #2 
-+ [GitHub](https://github.com/subsub97) 김득호 / 개발팀장 / Stage.#1, #2
-+ [GitHub](https://github.com/YangJinHyeok) 양진혁 / 계획서,자료조사 / Stage.#1, #3 
-+ [GitHub](https://github.com/sugyeong-lee) 이수경 / 알고리즘 및 설계도 작성 /Stage.#1, #3
+
+|링크|이름|업무|개발스테이지|
+|---|-----|--------------------------|-----------|
+| [GitHub](https://github.com/HwangBBang)| 황병훈 | 팀장,계획서, README작성 | Stage.#0, #1 |
+| [GitHub](https://github.com/123ksj)| 김수정 | 진행현황작성 | Stage.#1, #2 |
+| [GitHub](https://github.com/subsub97)| 김득호 | 개발팀장 | Stage.#1, #2 |
+| [GitHub](https://github.com/YangJinHyeok) | 양진혁 | 계획서,자료조사 | Stage.#1, #3 |
+| [GitHub](https://github.com/sugyeong-lee) | 이수경 | 알고리즘 및 설계도 작성 | Stage.#1, #3 |
 
 ## 1팀 사이드프로젝트를 소개합니다.
 
@@ -27,9 +30,12 @@ pygame 라이브러리와 git 을 사용해 게임을 개발하고 있습니다.
 >> 음의점수를 주는 아이템 생성빈도 Down<br>
 >
 > **아이템 :** <br>
-> **+200 :** <img src = "아이템/p_it1.png">,<img src = "아이템/p_it2.png">,<img src = "아이템/p_it3.png">,<img src = "아이템/p_it4.png"> <br><br>
-> **-400 :** <img src = "아이템/n_it1.png">,<img src = "아이템/n_it2.png">,<img src = "아이템/n_it3.png">
-> 
+
+| 값 | 이미지 |
+|------|-------------------------|
+| +200 | <img src = "아이템/p_it1.png">,<img src = "아이템/p_it2.png">,<img src = "아이템/p_it3.png">,<img src = "아이템/p_it4.png"> |
+| -200 | <img src = "아이템/n_it1.png">,<img src = "아이템/n_it2.png">,<img src = "아이템/n_it3.png"> |
+
 > **캐릭터 :** <br>
 > <img src = "캐릭터/Step_0_2_4.png">
 
@@ -45,22 +51,17 @@ pygame 라이브러리와 git 을 사용해 게임을 개발하고 있습니다.
 > 캐릭터가 과제를 발사 할 수 있습니다. 조작법은 SpaceBar 입니다. <br>
 > 무작위로 움직이는 교수님에게 과제를 발사해 교수님의 체력을 감소시킵니다. <br>
 > 이때 교수님의 체력이 0 이하가 되면 Stage#3 을 탈출하고 게임이 종료됩니다. <br>
->> 교수님 HP : 100 <br>
->> 캐릭터 HP : 100 <br>
-> 
-> **캐릭터 :** <br>
-> <img src = "캐릭터/Step_0_2_4.png">, <img src = "캐릭터/teacher.png"> <br>
->
->
-> **무기 :**<br>
->  <img src = "아이템/weapon.png"> <br>
->> 데미지 : 2 <br>
 
->  <img src = "아이템/teaxher_F2.png"> <br>
->> 데미지 : 10 <br>
->
->  <img src = "아이템/heal.png"> <br>
->> 회복 : 2<br>
+| 이름 | HP값 | 이미지 | 
+|------|---------|---------|
+| 교수님 | 100 | <img src = "캐릭터/teacher.png"> |
+| 메인 | 100 | <img src = "캐릭터/Step_0_2_4.png"> |
+ 
+| 이름 | 값 | 이미지 | 
+|------|---------|---------|
+| 교수님F | 10 | <img src = "아이템/teacher_F2.png"> |
+| 메인 과제 | 2 | <img src = "아이템/weapon.png"> |
+| 힐팩 | 10 | <img src = "아이템/heal.png"> |
 
 <이상 게임의 상세한 설명을 마무리 하겠습니다. 감사합니다.> <br>
 
